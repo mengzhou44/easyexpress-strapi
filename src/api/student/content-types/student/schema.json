@@ -1,0 +1,88 @@
+{
+  "kind": "collectionType",
+  "collectionName": "students",
+  "info": {
+    "singularName": "student",
+    "pluralName": "students",
+    "displayName": "student",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "firstName": {
+      "type": "string",
+      "required": true
+    },
+    "lastName": {
+      "type": "string",
+      "required": true
+    },
+    "email": {
+      "type": "email",
+      "required": true
+    },
+    "phone": {
+      "type": "string",
+      "required": true
+    },
+    "ethnicity": {
+      "type": "string",
+      "required": false
+    },
+    "gender": {
+      "type": "string",
+      "required": true
+    },
+    "address": {
+      "type": "string",
+      "required": true
+    },
+    "city": {
+      "type": "string",
+      "required": true
+    },
+    "state": {
+      "type": "string",
+      "required": true
+    },
+    "zipCode": {
+      "type": "string",
+      "required": true
+    },
+    "country": {
+      "type": "string",
+      "required": true
+    },
+    "coursesRequest": {
+      "type": "string",
+      "required": true
+    },
+    "currentGrade": {
+      "type": "string",
+      "required": true
+    },
+    "parentName": {
+      "type": "string",
+      "required": true
+    },
+    "parentEmail": {
+      "type": "email",
+      "required": true
+    },
+    "parentSignature": {
+      "type": "string",
+      "required": true
+    },
+    "studentSignature": {
+      "type": "string",
+      "required": true
+    },
+    "birthDate": {
+      "type": "date",
+      "required": true
+    }
+  }
+}
